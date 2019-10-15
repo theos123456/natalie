@@ -1,0 +1,443 @@
+/* css document*/
+.header
+{
+  background-color:#547392;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+}
+
+.header a
+{
+  display: inline;
+  color: white;
+  font-weight: bold;
+  float: right;
+  text-decoration: none;
+  padding: 10px;
+}
+.image1
+{
+width: 120px;
+height: 50px;
+position: absolute;
+top: -4px;
+left: 0px;
+}
+.div2
+{
+  width: 1340px;
+  height: 60px;
+  opacity: 0.8;
+  position: absolute;
+  top: 150px;
+  left: 0px;
+}
+.image2
+{
+  width: 1350px;
+  height: 180px;
+  position: absolute;
+  top: -101px;
+  left: 0px;
+}
+.shop
+{
+    position: absolute;
+    top: -100px;
+    left: 1015px;
+    height: 178px;
+    width: 210px;
+}
+.field1
+{
+    position: absolute;
+    top: 245px;
+    left: 2px;
+    width:1345px;
+    height: auto;
+    font-weight: bold;
+    color: white;
+}
+.categories
+{
+    width: 205px;
+    height: 500px;
+}
+ul{
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+ul li {
+  float: left;
+  list-style: none;
+  text-decoration: none;
+  border: 2px solid white;
+  line-height: 40px;
+  width: 120px;
+  height: 40px;
+}
+  ul li a:hover{
+background-color:blue;
+color:#000000;
+
+}
+ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+ul li ul li {
+  display: none;
+}
+ul li:hover ul li {
+  display: inline;
+  border: 1.5px solid white;
+  margin-top: 1px;
+  box-shadow: 0px 0px 2px 2px black;
+}
+ul li ul li ul li{
+  display: none;
+}
+ul li ul li:hover ul li {
+  display: block;
+  float: left;
+  border: 1.5px solid white;
+  margin-top: 1px;
+  box-shadow: 0px 0px 2px 2px black;
+  background-color: gray;
+  position: relative;
+  top: -1px;
+  left: 120px;
+}
+
+ .products-container {
+  display: table;
+  padding: 8px;
+  clear: both;
+}
+
+ .products-container div.items {
+  float: left;
+  box-shadow: 0px 0px 2px 2px lightgray;
+  padding: 15px;
+  width: 16.33%;
+  height: 190px;
+  overflow:hidden;
+}
+
+ .products-container div.items img {
+  width: 97%;
+  height: 200px;
+}
+
+
+ .products-container div.items b {
+  /* color: #fff; */
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.products-container div.items .details {
+  position: relative;
+  top: -36px;
+  width: 168.2px;
+  height: 220px;
+  padding: 15px;
+  left: -13px;
+  text-align: left;
+  color: #000;
+  -webkit-transition: all 0.5s ease-out;
+  -O-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+ .products-container .items:hover .details {
+  top: -220px;
+  background: #547392;
+  color: #fff;
+  opacity: 0.8;
+  text-shadow: 0px 0px 7px #000;
+}
+.country-table
+{
+position: absolute;
+top: 345px;
+right: 20px;
+}
+
+.socialmedia
+{
+position: relative;
+bottom: 0px;
+height: 40px;
+background-color: black;
+left: 0px;
+width: 100%;
+}
+.socialmedia a
+{
+  color: #547392;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 4px;
+}
+fa fa-envelope
+{
+  width: 200px;
+  height: 100px;
+}
+input
+	{
+	color:black;
+	font-weight:500;
+    padding-left:5px;
+	}
+.product-holder
+{
+position: absolute;
+border:none;
+top: 300px;
+height:auto;
+width: 1338px;
+}
+#song-holder
+{
+position:relative; top:100px;
+height:auto;
+width: 1338px;
+}
+.content-holder
+{
+position: absolute;
+border:none;
+top: 240px;
+height:auto;
+width: 1338px;
+}
+.footer
+{
+width: 1344px;
+margin-left: -10px;
+color: white;
+background-color: #547392;
+}
+.footer a
+{
+ color: white;
+ top: auto;
+ text-decoration: none;
+ font-size:15px;
+ background-color: none;
+ font-family: times new roman;
+}
+.link_container: after
+{
+ content: "";
+  display: table;
+  clear: both;
+}
+.link_content
+{
+float: left;
+  width: 13%;
+  padding: 20px;
+  height: auto;
+}
+.link_content
+{
+float: left;
+  width: 13%;
+  padding: 20px;
+  height: auto;
+}
+.footer a:hover
+{
+color: red;
+}
+#input-style
+{
+width:98%;
+height:40px;
+box-shadow: 0px 0px 0.5px 0.5px dimgray;
+}
+#input-submit-style
+{
+ width: 11%;
+ height:40px;
+ font-family: Times New Roman;
+ font-size: 18px;
+ box-shadow:0px 0px 1px 1px blue;
+ opacity:0.8;
+}
+#input-submit-style:hover
+{
+ box-shadow:0px 0px 2px 2px #547392;
+ opacity:0.9;
+ width:
+}
+#login-form
+{
+ position: relative;
+ top: 50px;
+ width: 395px;
+ left: 941px;
+ opacity: 0.8;
+ background-color: black;
+ visibility: hidden;
+ box-shadow:0px 0px 2px 2px white; 
+}
+.select-style
+{
+width:98%;
+height:40px;
+box-shadow: 0px 0px 0.5px 0.5px dimgray;
+}
+.welcome-content
+{
+position: absolute;
+border: none;
+top: 50px;
+left: 4px;
+min-height:570px;
+width: 1359px;
+}
+.fa-angle-double-right{
+    padding-right: 0px;
+	font-weight:bold;
+}
+
+/**************************************************************************         CONTACT US     */
+
+#contactusform {
+
+width:500px;
+padding:10px 50px;
+font-family:raleway;
+background-color:#fff;
+height:450px;
+}
+
+
+#contactusform input[type=text] {
+width:350px;
+padding:10px;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+font-family:raleway;
+box-shadow:none;
+}
+#contactusform input[type=email] {
+width:350px;
+padding:10px;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+font-family:raleway;
+box-shadow:none;
+}
+#contactusform #name {
+background-image:url(../image/user.png);
+background-repeat:no-repeat;
+background-position:5px 7px
+}
+#contactusform #email {
+background-image:url(../image/mail_icon.png);
+background-repeat:no-repeat;
+background-position:5px 7px
+}
+#contactusform textarea {
+background-image:url(../image/message.png);
+background-repeat:no-repeat;
+width:350px;
+height:160px;
+padding:10px;
+resize:none;
+margin-top:30px;
+border:1px solid #ccc;
+padding-left:60px;
+font-size:16px;
+font-family:raleway;
+margin-bottom:30px;
+text-align:center;
+}
+
+/**************************************************************                                 ends of contact us page                      ******************************/
+
+
+
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+    color:#000000;
+}
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 20px;
+}
+.dropdown-container {
+    display: none;
+    padding-left: 8px;
+}
+.dropdown-container a{
+    color:#006699;
+}
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+#message
+{
+ position: absolute;
+ top: 250px;
+ width: 425px;
+ left: 511px;
+ opacity: 0.9;
+ box-shadow:0px 0px 1px 1px black; 
+}
+#message-cover
+{
+position:absolute;
+top:0px; left:0px;
+ width: 100%;
+ height: 100%;
+ background-color:#000000;
+ opacity: 0.7;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+	
+
